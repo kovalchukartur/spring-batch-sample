@@ -1,1 +1,7 @@
-
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    username: test
+    password: test
+  jpa:
+    open-in-view: false
