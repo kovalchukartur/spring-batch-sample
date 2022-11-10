@@ -5,3 +5,10 @@ spring:
     password: test
   jpa:
     open-in-view: false
+  batch:
+    job:
+      enabled: false
+    jdbc:
+      initialize-schema: always
+
+debug: false
